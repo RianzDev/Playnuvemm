@@ -1,0 +1,119 @@
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;    
+    box-shadow: 0 0 20px black; /* Adiciona uma sombra suave */
+}
+header {
+    background-color: #016125; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto do cabeçalho */
+    padding: 15px; /* Adiciona preenchimento ao cabeçalho */
+    display: flex; /* Define o cabeçalho como um contêiner flexível */
+    justify-content: space-between; /* Alinha os itens do cabeçalho horizontalmente */
+    align-items: center; /* Alinha os itens do cabeçalho verticalmente */
+}
+
+.btn-primary {
+    background-color:  #016125; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+    text-align: right;
+}
+
+.header-container {
+    /* Outros estilos do cabeçalho */
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.flex-item {
+    margin-left: auto;
+}
+
+nav img {
+    width: 1000px; /* Define a largura da imagem */
+    height: 200px;  /* Mantém a proporção da imagem */
+     align-items: center;
+}
+
+nav ul {
+    margin: 0; /* Remove margens padrão da lista não ordenada */
+    padding: 0; /* Remove preenchimento padrão da lista não ordenada */
+    list-style: none; /* Remove marcadores de lista padrão */
+    display: flex; /* Define a lista de navegação como um contêiner flexível */
+}
+
+nav li {
+    margin: 0 10px; /* Adiciona margem aos itens da lista de navegação */
+}
+
+nav a {
+    color: #ffffff; /* Cor do texto dos links de navegação */
+    text-decoration: none; /* Remove sublinhado dos links de navegação */
+    font-weight: bold;
+    padding: 10px; /* Adiciona preenchimento aos links de navegação */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos links de navegação */
+    transition: background-color 0.2s ease; /* Adiciona transição suave para a cor de fundo dos links de navegação */
+}
+
+nav a:hover {
+    background: black;
+    color: green;
+ /* Cor de fundo dos links de navegação ao passar o mouse */
+}
+
+/* Estilo da seção de produtos */
+section {
+    padding: 20px; /* Adiciona preenchimento à seção */
+}
+
+header, nav, main, footer {    
+    padding: 20px; /* Adiciona espaço interno aos elementos do site */
+}
+
+
+.container {
+    max-width: 20%; /* Largura máxima do site */
+    margin: 20px auto; /* Centraliza o site na página */
+    padding: 20px; /* Adiciona espaço interno ao site */
+    border: 5px solid none; /* Define a borda do site */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    background: white;
+    box-shadow: 0 0 20px black; /* Adiciona uma sombra suave */
+}

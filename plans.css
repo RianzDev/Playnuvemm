@@ -1,0 +1,347 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;    
+    box-shadow: 0 0 20px black; /* Adiciona uma sombra suave */
+}
+
+.site-container {
+    max-width: 100%; /* Largura máxima do site */
+    margin: 20px auto; /* Centraliza o site na página */
+    padding: 20px; /* Adiciona espaço interno ao site */
+    border: 5px solid none; /* Define a borda do site */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    background: white;
+    box-shadow: 0 0 20px black; /* Adiciona uma sombra suave */
+}
+
+header, nav, main, footer {    
+    padding: 20px; /* Adiciona espaço interno aos elementos do site */
+}
+
+.lancamento {
+    text-align: center;
+}
+
+.glacamentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 100%; /* Largura máxima do site */
+    margin: 20px auto; /* Centraliza o site na página */
+    padding: 20px; /* Adiciona espaço interno ao site */
+    border: 5px solid none; /* Define a borda do site */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    background-color: black; /* Cor de fundo do contêiner principal */
+}
+
+.glacamentos img {
+    max-width: 400px; /* Defina o tamanho máximo para as imagens */
+    height: auto; /* Mantenha a proporção */
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.glacamentos img:hover {
+    transform: scale(1.05);
+}
+
+.catalog {
+    max-width: 100%; /* Largura máxima do site */
+    margin: 20px auto; /* Centraliza o site na página */
+    padding: 20px; /* Adiciona espaço interno ao site */
+    border: 5px solid none; /* Define a borda do site */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    background-color: black; /* Cor de fundo do contêiner principal */
+    box-shadow: 0 0 20px none;
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+
+/* Estilos para o botão */
+header {
+    background-color: #016125; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto do cabeçalho */
+    padding: 15px; /* Adiciona preenchimento ao cabeçalho */
+    display: flex; /* Define o cabeçalho como um contêiner flexível */
+    justify-content: space-between; /* Alinha os itens do cabeçalho horizontalmente */
+    align-items: center; /* Alinha os itens do cabeçalho verticalmente */
+}
+
+.btn-primary {
+    background-color:  #016125; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+    text-align: right;
+}
+
+.header-container {
+    /* Outros estilos do cabeçalho */
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.flex-item {
+    margin-left: auto;
+}
+
+nav img {
+    width: 1000px; /* Define a largura da imagem */
+    height: 200px;  /* Mantém a proporção da imagem */
+     align-items: center;
+}
+
+nav ul {
+    margin: 0; /* Remove margens padrão da lista não ordenada */
+    padding: 0; /* Remove preenchimento padrão da lista não ordenada */
+    list-style: none; /* Remove marcadores de lista padrão */
+    display: flex; /* Define a lista de navegação como um contêiner flexível */
+}
+
+nav li {
+    margin: 0 10px; /* Adiciona margem aos itens da lista de navegação */
+}
+
+nav a {
+    color: #ffffff; /* Cor do texto dos links de navegação */
+    text-decoration: none; /* Remove sublinhado dos links de navegação */
+    font-weight: bold;
+    padding: 10px; /* Adiciona preenchimento aos links de navegação */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos links de navegação */
+    transition: background-color 0.2s ease; /* Adiciona transição suave para a cor de fundo dos links de navegação */
+}
+
+nav a:hover {
+    background: black;
+    color: green;
+ /* Cor de fundo dos links de navegação ao passar o mouse */
+}
+
+/* Estilo da seção de produtos */
+section {
+    padding: 20px; /* Adiciona preenchimento à seção */
+}
+
+section h2 {
+    margin-top: 0; /* Remove a margem superior do título da seção */
+    font-size: 24px; /* Define o tamanho da fonte do título da seção */
+    color: white;
+    text-align: center; /* Alinha o texto do título da seção ao centro */
+}
+
+.paragrafo-branco {
+    color: white; 
+    background-color:#0e0e10; /* Cor de fundo dos botões */
+    padding: 10px; 
+}
+
+footer {
+    border-radius: 10px; /* Adiciona bordas arredondadas aos botões */
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+    background-color:#0e0e10; /* Cor de fundo dos botões */
+    border: none; /* Remove as bordas dos botões */
+    font-size: 16px; /* Define o tamanho da fonte dos botões */
+    cursor: pointer; /* Define o cursor como ponteiro ao passar por cima dos botões */
+    transition:  0.3s ease; /* Adiciona transição suave */
+    font-weight: bold; /* Define a fonte em negrito para os botões */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    color: #016125; 
+}
+
+/* Se desejar diferentes cores para diferentes estados do link (link, visitado, hover, active), você pode definir separadamente */
+footer a:link {
+    color: #016125;
+}
+footer a:visited {
+    color: #016125;}
+
+footer a:hover {
+    color: red; /* Cor do link quando o cursor passa por cima */
+}
+
+footer a:active {
+    color: #016125;
+}
+
+.footer-column {
+    width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+
+button {    
+    position: absolute; /* Define a posição absoluta para os botões */
+    top: 50%; /* Posiciona os botões no meio verticalmente */
+    transform: translateY(-50%); /* Ajusta a posição vertical dos botões */
+    background-color: transparent; /* Define a cor de fundo dos botões como transparente */
+    border: none; /* Remove as bordas dos botões */
+    cursor: pointer; /* Define o cursor como ponteiro ao passar por cima dos botões */
+    padding: 20px; /* Adiciona preenchimento aos botões */
+}
+
+.button-container {
+    max-width: 100%; /* Largura máxima do site */
+    margin: 20px auto; /* Centraliza o site na página */
+    padding: 20px; /* Adiciona espaço interno ao site */
+    border: 5px solid none; /* Define a borda do site */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    background: #1f1f23;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    display: flex; /* Define o contêiner dos botões como um contêiner flexível */
+    gap: 40px; /* Define o espaço entre os botões */
+    justify-content: center; /* Alinha os botões horizontalmente ao centro */
+    flex-wrap: wrap; /* Permite que os botões quebrem para a próxima linha */
+}
+
+.button {
+    background: black;
+    color: green;
+    border: none; /* Remove as bordas dos botões */
+    border-radius: 10px; /* Adiciona bordas arredondadas aos botões */
+    padding: 20px; /* Adiciona preenchimento aos botões */
+    font-size: 16px; /* Define o tamanho da fonte dos botões */
+    cursor: pointer; /* Define o cursor como ponteiro ao passar por cima dos botões */
+    transition:  0.3s ease; /* Adiciona transição suave */
+    font-weight: bold; /* Define a fonte em negrito para os botões */
+    width: 210px; /* Largura fixa para os botões */
+    margin: 10px; /* Adiciona espaçamento entre os botões */
+}
+
+@media screen and (max-width: 600px) {
+    .button {
+        flex-basis: calc(50% - 5px); /* Dois botões por linha em telas menores */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .button {
+        flex-basis: calc(100% - 5px); /* Um botão por linha em telas ainda menores */
+    }
+}
+
+.icon-button {
+    background-image: url("icons8-arrow-24.png"); /* Define a imagem de fundo para o botão */
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    background-position: center left; /* Define a posição da imagem de fundo */
+    padding-left: 40px; /* Ajuste conforme necessário para o tamanho do ícone */
+}
+
+/* Adicionando ícone ao botão */
+.icon-button::before {
+    content: ""; /* Adiciona conteúdo antes do texto */
+    display: inline-block; /* Permite que o conteúdo tenha largura e altura */
+    width: 24px; /* Largura do ícone */
+    height: 24px; /* Altura do ícone */
+    background-image: url("icons8-arrow-24.png"); /* Caminho para o ícone */
+    background-size: cover; /* Garante que o ícone cubra completamente o espaço */
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+#prevBtn {
+    left: 0; /* Posiciona o botão "Anterior" à esquerda */
+}
+
+#nextBtn {
+    right: 0; /* Posiciona o botão "Próximo" à direita */
+}
+
+img {
+    max-width: 100%; /* Define a largura máxima das imagens como 100% */
+    height: auto; /* Define a altura das imagens automaticamente */
+    aspect-ratio: 9/16; /* Define a proporção da imagem */
+    min-width: 0; /* Define a largura mínima da imagem como 0 */
+    flex: 1 1 10px; /* Define a flexibilidade da imagem */
+    object-fit: cover; /* Redimensiona a imagem para cobrir o contêiner */
+    opacity: 1; /* Define a opacidade normal */
+    transition: opacity 0.5s; /* Adiciona transição suave para a opacidade */
+    margin: 10px; /* Adiciona espaçamento entre as imagens */
+}
+
+img:hover {
+    opacity: 0.7; /* Reduz a opacidade durante o efeito de hover */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit; /* Define o tamanho de fonte das tags de título como o mesmo que o tamanho de fonte padrão */
+    text-align: center; /* Alinha os títulos ao centro */
+    font-family: 'Medula One', sans-serif; /* Define a fonte dos títulos */
+    font-weight: bold; /* Define a fonte em negrito para os títulos */
+    padding: 2%;
+    color: #016125;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Aplique estilos diferentes para telas menores */
+    header {
+        flex-direction: column; /* Coloca os elementos um abaixo do outro */
+        text-align: center; /* Alinha o texto ao centro */
+    }
+
+    nav {
+        margin-top: 10px; /* Adiciona espaçamento acima da barra de navegação */
+    }
+
+    nav ul {
+        flex-direction: column; /* Coloca os itens da navegação um abaixo do outro */
+        align-items: center; /* Alinha os itens da navegação ao centro */
+    }
+
+    nav li {
+        margin: 5px 0; /* Reduz o espaçamento entre os itens da navegação */
+    }
+}
